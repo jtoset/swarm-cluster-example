@@ -14,7 +14,7 @@ docker swarm join-token manager|grep join  > /srv/docker/join.sh
 chmod +x !$
 
 cd /srv/docker
-git clone https://github.com/kpeiruza/swarm-cluster-example
+git clone https://github.com/jtoset/swarm-cluster-example
 
 docker network create proxy -d overlay
 docker network create portainer_agent -d overlay
