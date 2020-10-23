@@ -1,2 +1,2 @@
 # swarm-cluster-example
-Example
+Exemple
